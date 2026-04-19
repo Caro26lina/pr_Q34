@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-        uses: actions/checkcode@v3
+        uses: actions/checkout@v3
       - name: login oi docker hub
         uses: docker/login-action@v3
         with:
