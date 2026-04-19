@@ -2,7 +2,7 @@ name: Build and push to docker hub
 on:
   push:
     branch: [ main ]
-jons:
+jobs:
   build-push:
     runs-on: ubuntu-latest
     steps:
